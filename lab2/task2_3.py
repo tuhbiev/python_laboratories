@@ -1,0 +1,6 @@
+numbers = list(input('Введите 6 десятичных чисел через ",":').split(','))
+elements_sum = sum([int(element) for element in numbers])
+print('4-й элемент: {}'.format(numbers[3]))
+print('В обратном порядке: {}'.format(numbers[::-1]))
+print('Сумма элементов: {}'.format(elements_sum))
+print('Среднее арифметическое: {}'.format(round(elements_sum/len(numbers))))
